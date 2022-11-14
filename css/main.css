@@ -512,16 +512,9 @@ text-align: center;
     fill: currentColor;
 }
 
-   /* ------------------------clients------------------------ */
+   /* -------------------------------Clients------------------------------ */
 
 .clients {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -531,8 +524,13 @@ text-align: center;
     margin-bottom: 50px;
 }
 
+.clients__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.clients-link {
+.clients__link {
     width: 170px;
     height: 92px;
     margin-right: 15px;
@@ -550,12 +548,12 @@ text-align: center;
 
 }
 
-.clients-link:focus,
-.clients-link:hover {
+.clients__link:focus,
+.clients__link:hover {
     border: 1px solid var(--secondary-logo-color);
     color: var(--secondary-logo-color);
     }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor; 
 }
