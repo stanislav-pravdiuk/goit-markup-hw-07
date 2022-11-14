@@ -366,17 +366,13 @@ color: #212121;
     margin-bottom: 0px;
 }
 
-/* --------------------------------------work-------------------------------------- */
+/* --------------------------------Work-------------------------------- */
 
 .reset-p {
     padding-top: 0px;
 }
 
-.work-list {
-    display: flex;
-}
-
-.title {
+.work {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -385,7 +381,11 @@ color: #212121;
     text-align: center;
 }
 
-.work-item {
+.work__list {
+    display: flex;
+}
+
+.work__item {
     padding-top: 50px;
     padding-bottom: 0px;
     margin-right: 30px;
@@ -394,11 +394,11 @@ color: #212121;
     z-index: -1;
 }
 
-.work-item:last-child {
+.work__item:last-child {
     margin-right: 0px;
 }
 
-.work-item::before {
+.work__item::before {
 content: '';
 width: 370px;
 height: 70px;
@@ -408,7 +408,7 @@ bottom: 0;
 
 }
 
-.work-list-description {
+.work__list-description {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -420,9 +420,13 @@ bottom: 0;
     left: 50%;
     translate: -50%;
 }
-/* --------------------------------------team-------------------------------------- */
+/* --------------------------------Team-------------------------------- */
 
-.title-team {
+.team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -432,11 +436,11 @@ bottom: 0;
     margin-top: 0px;
 }
 
-.list-team {
+.team__list {
     display: flex;
 }
 
-.item-team {
+.team__item {
     padding-bottom: 0px;
     margin-right: 30px;
 
@@ -448,15 +452,15 @@ bottom: 0;
     background-color: white
 }
 
-.item-team:last-child {
+.team__item:last-child {
     margin-right: 0px;
 }
 
-.name-text {
+.team__name-text {
 text-align: center;
 }
 
-.name {
+.team__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -465,7 +469,7 @@ text-align: center;
     margin-bottom: 0px;
 }
 
-.text-team {
+.team__text {
     color: var(--secondary-text-color);
 
     font-size: 16px;
@@ -475,13 +479,13 @@ text-align: center;
     margin-bottom: 0px;
 }
 
-.icon {
+.team__icon-list {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.icon-link  {
+.team__link  {
     display:flex;
     width: 44px;
     height: 44px;
@@ -498,21 +502,15 @@ text-align: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:focus,
-.icon-link:hover {
+.team__link:focus,
+.team__link:hover {
     background-color: var(--secondary-logo-color);
     color: var(--white-text-color);
 }
 
-.icon-link-item {
+.team__icon{
     fill: currentColor;
 }
-
-
-.bgct {
-    background-color: rgba(245, 244, 250, 1);
-}
-
 
    /* ------------------------clients------------------------ */
 
