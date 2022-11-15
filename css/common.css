@@ -65,7 +65,7 @@ textarea {
 
 /* ----------------------------Page header---------------------------- */
 .page-header {
-position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,7 +86,7 @@ position: fixed;
 }
 
 .logo__link {
-    color: var(--primary-logo-color);
+    color: var(--secondary-logo-color);
 
     font-family: 'raleway';
     font-weight: 700;
@@ -97,10 +97,9 @@ position: fixed;
     margin-right: 93px;
 }
 
-.logo__accent {
-    color: var(--secondary-logo-color)
+.logo__text {
+    color: var(--primary-logo-color);
 }
-
 
 .site-nav {
     display: flex;
@@ -137,11 +136,11 @@ position: fixed;
     
 }
 
-.current {
+.site-nav__link--current {
     color: var(--secondary-logo-color);
 }
 
-.current::after {
+.site-nav__link--current::after {
     content: '';
 
     position: relative;
@@ -214,24 +213,12 @@ position: fixed;
     align-items: center;
 }
 
-.logo-footer {
-
+.logo--display {
+    display: block;
 }
 
-.logo-footer__link {
-    color: var(--primary-logo-color);
-
-    font-family: 'raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1;
-    text-decoration: none;
-
-    margin-right: 93px;
-}
-
-.logo-footer__night-theme {
-    color: white;
+.logo__text--inverse {
+    color: var(--white-text-color);
 }
 
 .requisites {
@@ -400,8 +387,8 @@ position: fixed;
     border: none;
 }
 
-.mailing-btn:focus,
-.mailing-btn:hover {
+.mailing__btn:focus,
+.mailing__btn:hover {
     background: #188CE8;
 }
 

@@ -276,7 +276,7 @@ color: #212121;
 
 .agreement__check-icon {
     position: absolute;
-    left: 24px;
+    left: 21px;
 }
 
 .agreement__input:checked + .agreement__checkbox-icon {
