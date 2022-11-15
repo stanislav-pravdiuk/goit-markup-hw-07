@@ -63,6 +63,14 @@ textarea {
     margin: -1px;
 }
 
+.reset-padding-top {
+    padding-top: 0px;
+}
+
+.reset-padding-bottom {
+    padding-bottom: 0px;
+}
+
 /* ----------------------------Page header---------------------------- */
 .page-header {
     position: fixed;
