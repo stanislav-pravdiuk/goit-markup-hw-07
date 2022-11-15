@@ -1,0 +1,136 @@
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+    min-height: 80px;
+
+    background-color: $head-bg-color;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__link {
+    color: $secondary-logo-color;
+
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+
+    margin-right: 93px;
+}
+
+.logo__text {
+    color: $primary-logo-color;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-nav__item {
+    margin-right: 50px;
+}
+
+.site-nav__item:last-child {
+    margin-right: 0px;
+}
+
+.site-nav__link {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.1;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus {
+    color: $secondary-logo-color;
+
+}
+
+.site-nav__link--current {
+    color: $secondary-logo-color;
+}
+
+.site-nav__link--current::after {
+    content: '';
+
+    position: relative;
+    top: 32px;
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    background-color: #2196F3;
+    border-radius: 2px;
+}
+
+.list-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.list-contact__item {
+    margin-right: 50px;
+}
+
+.list-contact__item:last-child {
+    margin-right: 0px;
+}
+
+.list-contact__link {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    align-items: center;
+    display: flex;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-contact__link:hover,
+.list-contact__link:focus {
+    color: var(--secondary-logo-color);
+}
+
+.list-contact__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-contact__icon:focus,
+.list-contact__icon:hover {
+    fill: var(--secondary-logo-color);
+}
