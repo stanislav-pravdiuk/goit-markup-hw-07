@@ -12,8 +12,10 @@
 }
 
 .main-nav {
+    @extend %container;
     display: flex;
     align-items: center;
+    
 }
 
 .logo {
@@ -22,6 +24,7 @@
 }
 
 .logo__link {
+    @extend %link;
     color: $secondary-logo-color;
 
     font-family: 'raleway';
@@ -37,6 +40,7 @@
 }
 
 .site-nav {
+    @extend %list;
     display: flex;
 }
 
@@ -49,6 +53,7 @@
 }
 
 .site-nav__link {
+    @extend %link;
     color: $primary-text-color;
     font-weight: 500;
     font-size: 14px;
@@ -62,6 +67,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .site-nav__link:hover,
@@ -83,13 +89,15 @@
     width: 100%;
     height: 4px;
 
-    background-color: #2196F3;
+    background-color: $secondary-logo-color;
     border-radius: 2px;
 }
 
 .list-contact {
+    @extend %list;
     display: flex;
     margin-left: auto;
+    
 }
 
 .list-contact__item {
@@ -101,7 +109,8 @@
 }
 
 .list-contact__link {
-    color: var(--secondary-text-color);
+    @extend %link;
+    color: $secondary-text-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -112,11 +121,12 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .list-contact__link:hover,
 .list-contact__link:focus {
-    color: var(--secondary-logo-color);
+    color: $secondary-logo-color;
 }
 
 .list-contact__icon {
@@ -132,5 +142,5 @@
 
 .list-contact__icon:focus,
 .list-contact__icon:hover {
-    fill: var(--secondary-logo-color);
+    fill: $secondary-logo-color;
 }
