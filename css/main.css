@@ -83,7 +83,6 @@ textarea {
 .site-nav__item {
   margin-right: 50px;
 }
-
 .site-nav__item:last-child {
   margin-right: 0px;
 }
@@ -104,16 +103,13 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:focus, .site-nav__link:hover {
   color: rgb(33, 150, 243);
 }
 
 .site-nav__link--current {
   color: rgb(33, 150, 243);
 }
-
 .site-nav__link--current::after {
   content: "";
   position: relative;
@@ -135,7 +131,6 @@ textarea {
 .list-contact__item {
   margin-right: 50px;
 }
-
 .list-contact__item:last-child {
   margin-right: 0px;
 }
@@ -159,9 +154,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-contact__link:hover,
-.list-contact__link:focus {
+.list-contact__link:hover, .list-contact__link:focus {
   color: rgb(33, 150, 243);
 }
 
@@ -177,8 +170,6 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.list-contact__icon:focus,
-.list-contact__icon:hover {
+.list-contact__icon:focus, .list-contact__icon:hover {
   fill: rgb(33, 150, 243);
 }/*# sourceMappingURL=main.css.map */

@@ -46,10 +46,10 @@
 
 .site-nav__item {
     margin-right: 50px;
-}
 
-.site-nav__item:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+        }
 }
 
 .site-nav__link {
@@ -67,30 +67,25 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-    color: $secondary-logo-color;
-
+    &:focus, &:hover {
+        color: $secondary-logo-color;
+    }
 }
 
 .site-nav__link--current {
     color: $secondary-logo-color;
-}
-
-.site-nav__link--current::after {
-    content: '';
-
-    position: relative;
-    top: 32px;
-    display: block;
-    width: 100%;
-    height: 4px;
-
-    background-color: $secondary-logo-color;
-    border-radius: 2px;
+    &::after {
+        content: '';
+        position: relative;
+        top: 32px;
+        display: block;
+        width: 100%;
+        height: 4px;
+        
+        background-color: $secondary-logo-color;
+        border-radius: 2px;
+    }
 }
 
 .list-contact {
@@ -102,10 +97,10 @@
 
 .list-contact__item {
     margin-right: 50px;
-}
 
-.list-contact__item:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 
 .list-contact__link {
@@ -122,11 +117,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
-}
-
-.list-contact__link:hover,
-.list-contact__link:focus {
-    color: $secondary-logo-color;
+    &:hover, &:focus {
+        color: $secondary-logo-color;
+    }
 }
 
 .list-contact__icon {
@@ -138,9 +131,7 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.list-contact__icon:focus,
-.list-contact__icon:hover {
-    fill: $secondary-logo-color;
+    &:focus, &:hover {
+        fill: $secondary-logo-color;}
 }
