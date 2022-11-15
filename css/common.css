@@ -104,8 +104,7 @@ textarea {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
-    text-decoration: none;
-
+    
     margin-right: 93px;
 }
 
@@ -131,8 +130,7 @@ textarea {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 1.1;
-    text-decoration: none;
-
+    
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
@@ -184,7 +182,6 @@ textarea {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    text-decoration: none;
     align-items: center;
     display: flex;
 
@@ -250,7 +247,6 @@ textarea {
     
     font-size: 14px;
     line-height: 1.7;
-    text-decoration: none;
     font-style: normal;
     transition-property: color;
     transition-duration: 250ms;
@@ -267,7 +263,6 @@ textarea {
 
     font-size: 14px;
     line-height: 1.7;
-    text-decoration: none;
     font-style: normal;
 
     transition-property: color;
@@ -302,7 +297,7 @@ textarea {
 .social__list {
     display: flex;
     align-items: center;
-    ustify-content: center;
+    justify-content: center;
     margin-top: 20px;
     
 }
