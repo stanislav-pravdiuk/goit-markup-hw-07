@@ -1,0 +1,211 @@
+/* ----------------------------Page footer---------------------------- */
+
+.footer-background {
+    background-color: rgba(47, 48, 58, 1);
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo--display {
+    display: block;
+}
+
+.logo__text--inverse {
+    color: $white-text-color;
+}
+
+.requisites {
+    margin-top: 20px;
+}
+
+.requisites__list {
+    @extend %list;
+}
+
+.requisites__adress {
+    margin-top: 0px;
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.requisites__location {
+    color: $white-text-color;
+
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @extend %link;
+
+    &:hover, &:focus {
+        color: $secondary-logo-color;
+    }
+}
+
+.requisites__contact {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @extend %link;
+
+    &:hover, &:focus {
+        color: $secondary-logo-color;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+.social-container {
+    @extend %container;
+    display: flex;
+}
+
+.social {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.social__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-text-color;
+
+    margin-left: 5px;
+}
+
+.social__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    @extend %list;
+}
+
+.social__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+
+    fill: $white-text-color;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    border-radius: 50%;
+    background-position: 50% 50%;
+
+    align-items: center;
+    justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus, &:hover {
+        background-color: $secondary-logo-color;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+.mailing {
+    display: block;
+
+    margin-top: 10px;
+    margin-left: 93px;
+}
+
+.mailing__lable {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-text-color;
+}
+
+.mailing__input-btn {
+    display: flex;
+    margin-top: 20px;
+
+    position: relative;
+
+    outline: none;
+}
+
+.mailing__input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    color: $white-text-color;
+    background-color: #2F303A;
+    outline: none;
+
+    &:focus-visible {
+        border-color: #2196F3
+    }
+}
+
+.mailing__btn {
+    cursor: pointer;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    text-align: center;
+
+    padding-right: 28px;
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #FFFFFF;
+
+    &:focus, &:hover {      
+        background: #188CE8;
+    }
+}
+
+.mailing__icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+
+    width: 24px;
+    height: 24px;
+}
