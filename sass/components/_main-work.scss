@@ -1,5 +1,5 @@
 /* --------------------------------Work-------------------------------- */
-.work__section {
+.work {
     @extend %section, %reset-padding-top;
 }
 
@@ -7,7 +7,7 @@
     @extend %container;    
 }
 
-.work {
+.work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;

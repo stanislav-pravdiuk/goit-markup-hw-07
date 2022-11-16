@@ -2,14 +2,16 @@
 @import './utils/variables';
 @import './utils/common';
 @import './utils/placeholders';
-// -----------------------------------
+// -------------header----------------
 @import './components/page-header';
-@import './components/footer';
 // -------------main------------------
 @import './components/main-hero';
 @import './components/main-modal';
 @import './components/main-features';
 @import './components/main-work';
 @import './components/main-team';
+@import './components/main-clients';
+// -------------footer----------------
+@import './components/footer';
 
 

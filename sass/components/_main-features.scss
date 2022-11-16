@@ -1,6 +1,6 @@
 /* -----------------------------Features------------------------------ */
 
-.features__section {
+.features {
     @extend %section;
 }
 
@@ -8,7 +8,7 @@
     @extend %container;
 }
 
-.features {
+.features__title {
     @extend %visually-hidden;
 }
 
@@ -41,7 +41,7 @@
     @extend %container;
 }
 
-.features__title {
+.features__lable {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
