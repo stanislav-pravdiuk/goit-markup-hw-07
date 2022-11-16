@@ -14,7 +14,7 @@
 
 .features__list {
     display: flex;
-    // @extend %list;
+    @extend %list;
 }
 
 .features__item {

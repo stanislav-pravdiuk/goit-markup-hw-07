@@ -13,56 +13,7 @@
 
 
 
-/* --------------------------------Work-------------------------------- */
 
-.work {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-
-    margin: 0px;
-    text-align: center;
-}
-
-.work__list {
-    display: flex;
-}
-
-.work__item {
-    padding-top: 50px;
-    padding-bottom: 0px;
-    margin-right: 30px;
-
-    position: relative;
-    z-index: -1;
-}
-
-.work__item:last-child {
-    margin-right: 0px;
-}
-
-.work__item::before {
-    content: '';
-    width: 370px;
-    height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);
-    position: absolute;
-    bottom: 0;
-
-}
-
-.work__list-description {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-    position: absolute;
-    bottom: 27px;
-    left: 50%;
-    translate: -50%;
-}
 
 /* --------------------------------Team-------------------------------- */
 
