@@ -12,52 +12,6 @@
 
 
 
-/* -----------------------------Features------------------------------ */
-
-.features__list {
-    display: flex;
-}
-
-
-.features__item {
-    display: inline-block;
-    margin-right: 30px;
-
-}
-
-.features__item:last-child {
-    margin-right: 0px;
-}
-
-.features__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 33px;
-}
-
-.features__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-.features__text {
-    color: var(--secondary-text-color);
-
-    font-size: 14px;
-    line-height: 1.7;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 /* --------------------------------Work-------------------------------- */
 
