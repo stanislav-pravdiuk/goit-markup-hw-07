@@ -1,7 +1,19 @@
+// -------------------text------------------------
 $primary-text-color: rgba(33, 33, 33, 1);
 $secondary-text-color: rgba(117, 117, 117, 1);
+$alt-text-color: rgba(255, 255, 255, 0.6);
 $white-text-color: rgba(255, 255, 255, 1);
+
 $primary-logo-color: rgba(0, 0, 0, 1);
-$secondary-logo-color: rgba(33, 150, 243, 1);
+// secondary-logo-color
+$accent-color: rgba(33, 150, 243, 1);
+
+// -------------------background-------------------
 $head-bg-color: rgba(255, 255, 255, 1);
-$main-bg-color: #F5F5F5;
+$main-bg-color: rgba(245,245,245,1); 
+$footer-bg-color: rgba(47, 48, 58, 1);
+// -------------------border-----------------------
+$alt-border-color: rgba(255, 255, 255, 0.3);
+$hover-btn:rgba(24, 140, 232, 1);
+
+$icon-color: rgba(255, 255, 255, 0.1);
