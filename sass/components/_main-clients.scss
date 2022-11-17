@@ -36,10 +36,10 @@
     margin-right: 15px;
     margin-left: 15px;
 
-    border: 1px solid #AFB1B8;
+    border: 1px solid $secondary-icon-color;
     border-radius: 4px;
 
-    color: #AFB1B8;
+    color: $secondary-icon-color;
 
     transition-property: color, border;
     transition-duration: 250ms;

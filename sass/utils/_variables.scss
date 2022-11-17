@@ -5,15 +5,32 @@ $alt-text-color: rgba(255, 255, 255, 0.6);
 $white-text-color: rgba(255, 255, 255, 1);
 
 $primary-logo-color: rgba(0, 0, 0, 1);
-// secondary-logo-color
-$accent-color: rgba(33, 150, 243, 1);
 
 // -------------------background-------------------
 $head-bg-color: rgba(255, 255, 255, 1);
-$main-bg-color: rgba(245,245,245,1); 
+$main-bg-color: rgba(245, 245, 245, 1);
+$secondary-bg-color: rgba(245, 244, 250, 1);
 $footer-bg-color: rgba(47, 48, 58, 1);
-// -------------------border-----------------------
-$alt-border-color: rgba(255, 255, 255, 0.3);
-$hover-btn:rgba(24, 140, 232, 1);
+$hero-gradient: rgba(47, 48, 58, 0.4);
+$backdrop-color: rgba(0, 0, 0, 0.1);
+$bg-lable-color: rgba(47, 48, 58, 0.8);
 
+// -------------------components-------------------
+$border-head-color:rgba(238, 238, 238, 1);
+$alt-border-color: rgba(255, 255, 255, 0.3);
+$third-border-color: rgba(33, 33, 33, 0.2);
 $icon-color: rgba(255, 255, 255, 0.1);
+$secondary-icon-color: rgba(175,177,184,1);
+$shadow-color: rgba(0, 0, 0, 0.15);
+$four-shadow-color: rgba(0, 0, 0, 0.06);
+$five-shadow-color: rgba(0, 0, 0, 0.16);
+$six-shadow-color: rgba(0, 0, 0, 0.08);
+$alt-shadow-color: rgba(0, 0, 0, 0.12);
+$secondary-shadow-color: rgba(0, 0, 0, 0.14);
+$third-shadow-color: rgba(0, 0, 0, 0.2);
+
+
+
+$accent-color: rgba(33, 150, 243, 1);
+$transporent-accent: rgba(33, 150, 243, 0.9);
+$hover-btn: rgba(24, 140, 232, 1);

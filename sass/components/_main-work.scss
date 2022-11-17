@@ -4,7 +4,7 @@
 }
 
 .work__container {
-    @extend %container;    
+    @extend %container;
 }
 
 .work__title {
@@ -35,13 +35,13 @@
 
     &::before {
         content: '';
-            width: 370px;
-            height: 70px;
-            
-            background-color: rgba(47, 48, 58, 0.8);
+        width: 370px;
+        height: 70px;
 
-            position: absolute;
-            bottom: 0;
+        background-color: $bg-lable-color;
+
+        position: absolute;
+        bottom: 0;
     }
 }
 
@@ -50,7 +50,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $white-text-color;
 
     position: absolute;
     bottom: 27px;
