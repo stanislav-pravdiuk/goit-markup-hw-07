@@ -3,7 +3,9 @@
 @import './utils/common';
 @import './utils/placeholders';
 // -------------header----------------
-@import './components/page-header';
+@import './components/header';
+// -------------footer----------------
+@import './components/footer';
 // -------------main------------------
 @import './components/main-hero';
 @import './components/main-modal';
@@ -11,5 +13,6 @@
 @import './components/main-work';
 @import './components/main-team';
 @import './components/main-clients';
-// -------------footer----------------
-@import './components/footer';
+// -------------portfolio-------------
+@import './components/portfolio-filter';
+@import './components/portfolio-examples';

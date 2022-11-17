@@ -1,22 +1,22 @@
 /* ---------------------------Examples---------------------- */
-.work {
+.examples {
     @extend %section, %reset-padding-top;
 }
-.work__container {
+.examples__container {
     @extend %container;
 }
 
-.work__title {
+.examples__title {
     @extend %visually-hidden;
 }
-.work__list {
+.examples__list {
     display: flex;
     flex-wrap: wrap;
 
     @extend %list
 }
 
-.work__item {
+.examples__item {
     margin-top: 34px;
     margin-bottom: 0px;
     margin-right: 30px;
@@ -39,16 +39,16 @@
     }
 }
 
-.work__link {
+.examples__link {
     @extend %link;
 }
 
-.work__wrapper {
+.examples__wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.work__description {
+.examples__description {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,8 +66,8 @@
     opacity: 0;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .work__link:focus &,
-    .work__link:hover & {
+    .examples__link:focus &,
+    .examples__link:hover & {
             opacity: 1;
             transform: translateY(0%);
         }
@@ -75,7 +75,7 @@
     @extend %list;
 }
 
-.work__border {
+.examples__border {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -86,7 +86,7 @@
     border-right: 1px solid rgba(238, 238, 238, 1);
 }
 
-.work__lable {
+.examples__lable {
     color: $primary-text-color;
 
     font-weight: 700;
@@ -98,7 +98,7 @@
     margin-bottom: 0px;
 }
 
-.work__text {
+.examples__text {
     color: $secondary-text-color;
 
     font-weight: 400;
