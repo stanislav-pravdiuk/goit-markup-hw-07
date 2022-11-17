@@ -15,7 +15,7 @@ textarea {
   resize: none;
 }
 
-.social-container, .clients__container, .team__container, .work__container, .features__item-container, .features__container, .hero__container, .page-header__container {
+.footer__container, .clients__container, .team__container, .work__container, .features__item-container, .features__container, .hero__container, .header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -27,13 +27,13 @@ textarea {
   padding-bottom: 94px;
 }
 
-.social__list, .requisites__list, .clients__list, .team__icon-list, .team__list, .work__list-description, .work__list, .features__list, .list-contact, .page-header__site-nav {
+.social__list, .requisites__list, .clients__list, .team__icon-list, .team__list, .work__list-description, .work__list, .features__list, .list-contact, .site-nav {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.requisites__contact, .requisites__location, .list-contact__link, .site-nav__link, .page-header__logo {
+.requisites__contact, .requisites__location, .list-contact__link, .site-nav__link, .logo {
   text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ textarea {
 }
 
 /* ----------------------------Page header---------------------------- */
-.page-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ textarea {
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-.page-header__container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +70,7 @@ textarea {
           align-items: center;
 }
 
-.page-header__nav {
+.header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +79,7 @@ textarea {
           align-items: center;
 }
 
-.page-header__logo {
+.logo {
   color: rgb(33, 150, 243);
   font-family: "raleway";
   font-weight: 700;
@@ -88,11 +88,11 @@ textarea {
   margin-right: 93px;
 }
 
-.page-header__logo-text {
+.logo__text {
   color: rgb(0, 0, 0);
 }
 
-.page-header__site-nav {
+.site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -770,7 +770,7 @@ textarea {
 }
 
 /* ----------------------------Page footer---------------------------- */
-.footer-background {
+.footer {
   background-color: rgb(47, 48, 58);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -782,7 +782,13 @@ textarea {
           align-items: center;
 }
 
-.logo--display {
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.requisites {
   display: block;
 }
 
@@ -790,15 +796,15 @@ textarea {
   color: rgb(255, 255, 255);
 }
 
-.requisites {
+.requisites__adress {
   margin-top: 20px;
 }
 
-.requisites__adress {
+.requisites__item {
   margin-top: 0px;
   margin-bottom: 9px;
 }
-.requisites__adress:last-child {
+.requisites__item:last-child {
   margin-bottom: 0px;
 }
 
@@ -835,12 +841,6 @@ textarea {
 }
 
 /* -------------------------------------------------------- */
-.social-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .social {
   margin-left: 70px;
   margin-top: 10px;

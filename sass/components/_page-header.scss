@@ -1,5 +1,5 @@
 /* ----------------------------Page header---------------------------- */
-.page-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,18 +12,18 @@
     border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 
-.page-header__container {
+.header__container {
     @extend %container;
     display: flex;
     align-items: center;
 }
 
-.page-header__nav {
+.header__nav {
     display: flex;
     align-items: center;
 }
 
-.page-header__logo {
+.logo {
     @extend %link;
     color: $accent-color;
 
@@ -35,11 +35,11 @@
     margin-right: 93px;
 }
 
-.page-header__logo-text {
+.logo__text {
     color: $primary-logo-color;
 }
 
-.page-header__site-nav {
+.site-nav {
     @extend %list;
     display: flex;
 }

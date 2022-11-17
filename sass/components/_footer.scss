@@ -1,6 +1,6 @@
 /* ----------------------------Page footer---------------------------- */
 
-.footer-background {
+.footer {
     background-color: $footer-bg-color;
     
     padding-top: 60px;
@@ -10,7 +10,12 @@
     align-items: center;
 }
 
-.logo--display {
+.footer__container {
+    @extend %container;
+    display: flex;
+}
+
+.requisites {
     display: block;
 }
 
@@ -18,7 +23,7 @@
     color: $white-text-color;
 }
 
-.requisites {
+.requisites__adress {
     margin-top: 20px;
 }
 
@@ -26,7 +31,7 @@
     @extend %list;
 }
 
-.requisites__adress {
+.requisites__item {
     margin-top: 0px;
     margin-bottom: 9px;
 
@@ -71,11 +76,6 @@
 }
 
 /* -------------------------------------------------------- */
-
-.social-container {
-    @extend %container;
-    display: flex;
-}
 
 .social {
     margin-left: 70px;
