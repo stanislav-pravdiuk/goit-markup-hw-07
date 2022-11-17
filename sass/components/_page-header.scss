@@ -12,10 +12,10 @@
     border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 
-.page-header__container {
+.page-header {
     @extend %container;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo {
@@ -49,7 +49,7 @@
 
     &:last-child {
         margin-right: 0px;
-        }
+    }
 }
 
 .site-nav__link {
@@ -68,13 +68,15 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
         color: $secondary-logo-color;
     }
 }
 
 .site-nav__link--current {
     color: $secondary-logo-color;
+
     &::after {
         content: '';
         position: relative;
@@ -82,7 +84,7 @@
         display: block;
         width: 100%;
         height: 4px;
-        
+
         background-color: $secondary-logo-color;
         border-radius: 2px;
     }
@@ -92,7 +94,7 @@
     @extend %list;
     display: flex;
     margin-left: auto;
-    
+
 }
 
 .list-contact__item {
@@ -116,8 +118,9 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         color: $secondary-logo-color;
     }
 }
@@ -132,6 +135,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:focus, &:hover {
-        fill: $secondary-logo-color;}
+    &:focus,
+    &:hover {
+        fill: $secondary-logo-color;
+    }
 }
